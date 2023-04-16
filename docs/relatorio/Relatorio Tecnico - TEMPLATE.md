@@ -105,9 +105,7 @@ Foi percebido que o principal público alvo desse projeto são os jovens que gos
 ## Histórias de Usuários
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
-![image](https://user-images.githubusercontent.com/129913437/232343060-d25dcf8d-37f3-405c-8531-3bcbc9c5a457.png)
-![image](https://user-images.githubusercontent.com/129913437/232343070-dcd145f2-fd8f-442f-a632-69ea204be2d5.png)
-
+![image](https://user-images.githubusercontent.com/129913437/232343260-579c2b25-03d9-4aa7-9ad3-dfed617d256f.png)
 
 ## Requisitos
 
