@@ -1,22 +1,15 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
-
-......  COLOQUE AQUI O SEU TEXTO ......
+Não saber o que jogar
 
 `CURSO` 
-
-......  COLOQUE AQUI O SEU TEXTO ......
+Ciencia da  Computação
 
 ## Participantes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
-
+- Gabriel Antonio Rodrigues Morais
+ - Gabriel Drumond Franklin de Miranda e Rezende
+ - Livia Alves Ferreira
+ - Pedro Otavio Luz Salgado
 # Estrutura do Documento
 
 - [Informações do Projeto](#informações-do-projeto)
@@ -122,22 +115,8 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
  ![image](https://user-images.githubusercontent.com/129913437/232343180-7a2b1bc5-65b8-44be-94e4-702d1b011951.png)
 
 ## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
+![image](https://user-images.githubusercontent.com/129913437/232349579-bbb1b0e8-dbe1-4cf4-9f52-d39b3a8a93a5.png)
 
 # Projeto de Interface
 
@@ -149,14 +128,77 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > Projeto](#especificações-do-projeto).
 
 ## User Flow
+O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente Figma do projeto.
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
 
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
+Figura 1 - Fluxo de telas do usuário
+
+Wireframes
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 2. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
+Cabeçalho - local onde são dispostos elementos fixos de identidade (logo), representado pelo retângulo preto, e navegação principal do site (menu da aplicação);
+Conteúdo - apresenta o conteúdo da tela em questão e acima tem o título como indicado.
+Barra lateral - apresenta os elementos de navegação secundária, geralmente associados aos elementos do bloco de conteúdo e também apresenta uma barra de pesquisa.
+
+
+Figura 2 - Estrutura padrão do site
+Tela - Home-Page
+A tela de home-page mostra uma mensagem chamativa mostrando do que o site se trata e logo abaixo possui uma breve descrição do que você encontrará no site. Na parte do Menu superior possui a logo do site, um botão de registre-se e um de login. Além de um botão para ser redirecionado para página de dúvidas e reclamações.
+
+
+Figura 3 - HomePage
+
+Tela - Novidade
+A tela de novidades apresenta, no Bloco de Conteúdo, os últimos lançamentos no mundo dos jogos. O Bloco de Barra Lateral apresenta categorias de jogos e uma barra de pesquisa. No bloco tem o menu superior, comum a todas as telas.
+
+
+Figura 4 - Tela de Novidades nos jogos
+Tela - Favoritos
+O usuário poderá colocar seus jogos e comunidades na categoria favoritos. Na parte conteúdo vão aparecer os jogos favoritos e no menu lateral aparecerão as comunidades favoritas. O menu superior será o comum a todas as páginas.
+
+
+Figura 5 - Tela de Favoritos
+
+Tela - Jogos
+A tela de jogos apresenta, no Bloco de Conteúdo,as categorias de jogos e abaixo de cada categoria os jogos que a ela correspondem. O Bloco de Barra Lateral apresenta uma barra de pesquisa e as categorias de jogos. E o menu superior comum a todas as páginas.
+
+
+Figura 6 - Tela de Jogos
+Tela - Comunidades
+A tela comunidade possui em seu conteúdo as principais comunidades de acordo com cada jogo. Possui uma barra de pesquisa flutuante. E o menu superior comum a todas as páginas.
+
+Figura 7 - Tela Comunidades
+
+Tela - Sobre
+A tela Sobre, na parte conteúdo possui texto e imagens falando o porquê o site foi criado, motivações, problema inicial. Ela possui um menu superior comum a todas as páginas.
+
+Figura 8 - Tela Sobre
+
+
+Tela - Reclamações
+Essa tela permite que o usuário deixe sua dúvida ou reclamação sobre o site. Ela possui um campo onde o usuário pode inserir o nome, um para o email e um para escrever sua dúvida ou reclamação. Também possui um botão de enviar.
+
+
+Figura 9 - Tela de reclamações
+Tela - Login
+Essa tela permite que o usuário se logue no site, informando o usuário e a senha. Ela possui a logo do site, os campos para inserção de informações e um botão para logar.
+
+Figura 10 - Tela Login
+Tela - Logout
+A tela de logout pergunta se o usuário realmente deseja sair do site. Possuindo a logo do site e dois botões: um de confirmação e o outro de cancelamento.
+
+Figura 11 - Tela Logout
+Tela - Cadastro
+A tela de cadastro permite ao usuário criar uma conta para usar o aplicativo. Tendo campos para a inserção de informações como: Nome, email, usuário e senha (confirmação de senha também). A tela também conta com as opções de selecionar idade e interesses. E por fim, ela possui o botão de cadastro.
+
+
+Figura 12 - Tela Cadastro
+
+Tela - Recuperação de senha
+A tela de recuperação de usuário, como o próprio nome já diz, permite que o usuário recupere sua senha. Ela possui o logo do site, um campo para o usuário digitar seu email e um botão enviar email. Assim, um email será enviado para o usuário recuperar sua senha.
+
+
+Figura 13 - Tela de Recuperação de Senha
+
 > **Links Úteis**:
 > - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
 > - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
