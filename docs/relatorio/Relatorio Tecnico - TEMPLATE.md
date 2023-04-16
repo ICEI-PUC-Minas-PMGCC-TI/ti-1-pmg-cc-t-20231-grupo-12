@@ -225,9 +225,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
+|Repositório de código | GitHub | [https://github.com/XXXXXXX](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20231-grupo-12) | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Protótipo Interativo | MavelApp ou Figma | [https://figma.com/XXXXXXX](https://www.figma.com/file/2z5tmbvyGhPFOPwEv1E7wr/Untitled?node-id=0%3A1&t=tTi5HPsA4y2OJgDN-1) | 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
