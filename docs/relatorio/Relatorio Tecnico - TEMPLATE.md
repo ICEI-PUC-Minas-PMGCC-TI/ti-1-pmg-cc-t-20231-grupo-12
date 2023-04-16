@@ -53,75 +53,36 @@
 
 
 # Introdução
+Com o passar dos anos é notável o crescimento da influência da tecnologia na vida das pessoas, seja no âmbito pessoal ou profissional. As pessoas, por meio da internet, vêm se conectando com maior facilidade, trabalhando de casa (home office) e também usando este meio para lazer, assistindo a séries, filmes e também jogando. É notável a visibilidade que o mundo dos eSportes vem adquirindo atualmente e juntamente com essa fama novas pessoas se interessam por esse mundo.
+
+Visto que essas pessoas que entram, muitas vezes, não possuem o conhecimento necessário para “se manter nele”, pois logo se sentem entediadas ou desanimadas com os jogos. Sendo as causas para esses acontecimentos: jogos muito difíceis que jogadores iniciantes não conseguem acompanhar o ritmo ou a falta de alguém para conversar e jogar o jogo.
+
+Diante disso, torna-se necessário a criação de um site que sirva como um guia para esses novatos. Ajudando-os a achar jogos que se encaixem com seus perfis e com o nível de dificuldade desejado. Além de indicar algumas comunidades de jogos de seu interesse, para que assim ele possa falar sobre e achar alguém para jogar junto, evitando assim que ele desista desse mundo pelos motivos citados.
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade das pessoas (mais precisamente o público que curte jogar vídeo game) em encontrar o que jogar, seja nas horas vagas ou com os amigos, devido à pouca informação sobre que se encontra nos meios digitais.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O objetivo geral deste trabalho é a criação de um ambiente onde as pessoas encontrarão jogos de diferentes categorias e estilos de jogabilidade, baseado no gosto da própria pessoa, mostrando à elas os destaques da semana e até mesmo lançamentos mês.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar:
+Desenvolver uma interface de usuário intuitiva que permita aos usuários navegar facilmente pelos jogos disponíveis.
+Criar uma ferramenta de pesquisa avançada que permita aos usuários filtrar jogos com base em suas preferências pessoais (por exemplo, gênero, plataforma, preço, etc.).
+Incluir uma seção de avaliações e comentários de usuários para ajudar os usuários a decidir se um determinado jogo é adequado para eles.
+Garantir que o site seja responsivo e compatível com dispositivos móveis, para que os usuários possam acessá-lo em qualquer lugar, a qualquer momento.
+
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Após realizar entrevistas com pessoas que possuem o costume de jogar, foi analisado que muitos sentem dificuldades em encontrar o que jogar, principalmente quando estão a procura de um jogo para jogar sozinho(a), porém também foi percebido uma grande necessidade de se encontrar jogos com novas mecânicas e jogabilidades diferentes do atual padrão de “FPS” que se encontra em alta no momento.
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Foi percebido que o principal público alvo desse projeto são os jovens que gostam de jogar videogame, principalmente na faixa de 15 a 19 anos, mas é claro que pessoas mais adultas também farão parte desse público, uma vez que existem diversas simulações/jogos que podem atrair as pessoas de várias idades.
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
- 
 # Especificações do Projeto
 
 ......  COLOQUE AQUI O SEU TEXTO ......
