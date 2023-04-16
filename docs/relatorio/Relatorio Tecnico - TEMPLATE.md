@@ -94,6 +94,7 @@ Foi percebido que o principal público alvo desse projeto são os jovens que gos
 ## Personas, Empatia e Proposta de Valor
 ![image](https://user-images.githubusercontent.com/129913437/232342814-2e92a95b-a3e1-408e-85f1-e8cef5980ac7.png)
 ![image](https://user-images.githubusercontent.com/129913437/232342873-0f9a7107-b340-4cb9-909a-e10c25e3e0e1.png)
+![image](https://user-images.githubusercontent.com/129913437/232344780-3f16f941-bf1c-43ac-a92c-b4716eae1e82.png)
 ![image](https://user-images.githubusercontent.com/129913437/232342941-a892bf1e-e0e2-44ad-aeed-c343e695d95a.png)
 
 
