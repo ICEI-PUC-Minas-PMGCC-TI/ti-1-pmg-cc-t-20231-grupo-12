@@ -119,9 +119,10 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 No geral as interfaces fora elaboradas para atender as necessidades do usuário com o menor número de cliques possível e de forma dinâmica e intuítiva. 
 
 ## User Flow
-O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente Figma do projeto.
+O diagrama apresentado na Figura abaixo mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente Figma do projeto.
 
 ![image](https://user-images.githubusercontent.com/129913437/232352326-693368c9-e622-4921-b098-981f8acc58c9.png)
+
 Fluxo de telas do usuário
 
 Wireframes
@@ -133,60 +134,66 @@ Barra lateral - apresenta os elementos de navegação secundária, geralmente as
 ![image](https://user-images.githubusercontent.com/129913437/232352354-da7a1219-2137-4b0a-a58d-b9352e198d53.png)
 Estrutura padrão do site
 
-Tela - Home-Page
+- HomePage
 A tela de home-page mostra uma mensagem chamativa mostrando do que o site se trata e logo abaixo possui uma breve descrição do que você encontrará no site. Na parte do Menu superior possui a logo do site, um botão de registre-se e um de login. Além de um botão para ser redirecionado para página de dúvidas e reclamações.
+
 ![image](https://user-images.githubusercontent.com/129913437/232352371-fa9d5c8e-66ce-46bf-b6ea-3477568539b6.png)
- - HomePage
 
-Tela - Novidade
-A tela de novidades apresenta, no Bloco de Conteúdo, os últimos lançamentos no mundo dos jogos. O Bloco de Barra Lateral apresenta categorias de jogos e uma barra de pesquisa. No bloco tem o menu superior, comum a todas as telas.
-![image](https://user-images.githubusercontent.com/129913437/232352393-e409b105-ce4a-42fe-a93a-eb93f5734cee.png)
 - Tela de Novidades nos jogos
+A tela de novidades apresenta, no Bloco de Conteúdo, os últimos lançamentos no mundo dos jogos. O Bloco de Barra Lateral apresenta categorias de jogos e uma barra de pesquisa. No bloco tem o menu superior, comum a todas as telas.
 
-Tela - Favoritos
-O usuário poderá colocar seus jogos e comunidades na categoria favoritos. Na parte conteúdo vão aparecer os jogos favoritos e no menu lateral aparecerão as comunidades favoritas. O menu superior será o comum a todas as páginas.
-![image](https://user-images.githubusercontent.com/129913437/232352416-b744202a-8e09-489a-96f9-6686cc8008fd.png)
+![image](https://user-images.githubusercontent.com/129913437/232352393-e409b105-ce4a-42fe-a93a-eb93f5734cee.png)
+
 - Tela de Favoritos
+O usuário poderá colocar seus jogos e comunidades na categoria favoritos. Na parte conteúdo vão aparecer os jogos favoritos e no menu lateral aparecerão as comunidades favoritas. O menu superior será o comum a todas as páginas.
 
-Tela - Jogos
-A tela de jogos apresenta, no Bloco de Conteúdo,as categorias de jogos e abaixo de cada categoria os jogos que a ela correspondem. O Bloco de Barra Lateral apresenta uma barra de pesquisa e as categorias de jogos. E o menu superior comum a todas as páginas.
-![image](https://user-images.githubusercontent.com/129913437/232352437-b652ea3a-9537-417d-9aac-c899241b4298.png)
+![image](https://user-images.githubusercontent.com/129913437/232352416-b744202a-8e09-489a-96f9-6686cc8008fd.png)
+
+
  - Tela de Jogos
+A tela de jogos apresenta, no Bloco de Conteúdo,as categorias de jogos e abaixo de cada categoria os jogos que a ela correspondem. O Bloco de Barra Lateral apresenta uma barra de pesquisa e as categorias de jogos. E o menu superior comum a todas as páginas.
 
-Tela - Comunidades
+![image](https://user-images.githubusercontent.com/129913437/232352437-b652ea3a-9537-417d-9aac-c899241b4298.png)
+
+- Tela Comunidades
 A tela comunidade possui em seu conteúdo as principais comunidades de acordo com cada jogo. Possui uma barra de pesquisa flutuante. E o menu superior comum a todas as páginas.
+
 ![image](https://user-images.githubusercontent.com/129913437/232352453-8aa88754-7dd7-4b40-afc2-16b4dae1d7ad.png)
- - Tela Comunidades
 
-Tela - Sobre
-A tela Sobre, na parte conteúdo possui texto e imagens falando o porquê o site foi criado, motivações, problema inicial. Ela possui um menu superior comum a todas as páginas.
-![image](https://user-images.githubusercontent.com/129913437/232352469-6faa2260-ce4b-4511-b014-8f7b3f7fe80c.png)
  - Tela Sobre
+A tela Sobre, na parte conteúdo possui texto e imagens falando o porquê o site foi criado, motivações, problema inicial. Ela possui um menu superior comum a todas as páginas.
 
-Tela - Reclamações
+![image](https://user-images.githubusercontent.com/129913437/232352469-6faa2260-ce4b-4511-b014-8f7b3f7fe80c.png)
+
+
+- Tela de reclamações
 Essa tela permite que o usuário deixe sua dúvida ou reclamação sobre o site. Ela possui um campo onde o usuário pode inserir o nome, um para o email e um para escrever sua dúvida ou reclamação. Também possui um botão de enviar.
+
 ![image](https://user-images.githubusercontent.com/129913437/232352554-fd0da138-f6ea-4394-981d-8d112a306f0a.png)
- Tela de reclamações
 
-Tela - Login
-Essa tela permite que o usuário se logue no site, informando o usuário e a senha. Ela possui a logo do site, os campos para inserção de informações e um botão para logar.
-![image](https://user-images.githubusercontent.com/129913437/232352660-af6ebd48-176b-428e-8b50-f4af8503f43a.png)
 - Tela Login
+Essa tela permite que o usuário se logue no site, informando o usuário e a senha. Ela possui a logo do site, os campos para inserção de informações e um botão para logar.
 
-Tela - Logout
-A tela de logout pergunta se o usuário realmente deseja sair do site. Possuindo a logo do site e dois botões: um de confirmação e o outro de cancelamento.
-![image](https://user-images.githubusercontent.com/129913437/232352682-904d9293-1ef7-4a07-8d3d-46269caeee67.png)
+![image](https://user-images.githubusercontent.com/129913437/232352660-af6ebd48-176b-428e-8b50-f4af8503f43a.png)
+
+
  - Tela Logout
+A tela de logout pergunta se o usuário realmente deseja sair do site. Possuindo a logo do site e dois botões: um de confirmação e o outro de cancelamento.
 
-Tela - Cadastro
-A tela de cadastro permite ao usuário criar uma conta para usar o aplicativo. Tendo campos para a inserção de informações como: Nome, email, usuário e senha (confirmação de senha também). A tela também conta com as opções de selecionar idade e interesses. E por fim, ela possui o botão de cadastro.
-![image](https://user-images.githubusercontent.com/129913437/232352700-ad7f801a-0793-4d7c-a744-8ee1178c5ff9.png)
+![image](https://user-images.githubusercontent.com/129913437/232352682-904d9293-1ef7-4a07-8d3d-46269caeee67.png)
+
+
  - Tela Cadastro
+A tela de cadastro permite ao usuário criar uma conta para usar o aplicativo. Tendo campos para a inserção de informações como: Nome, email, usuário e senha (confirmação de senha também). A tela também conta com as opções de selecionar idade e interesses. E por fim, ela possui o botão de cadastro.
 
-Tela - Recuperação de senha
+![image](https://user-images.githubusercontent.com/129913437/232352700-ad7f801a-0793-4d7c-a744-8ee1178c5ff9.png)
+
+
+- Tela de Recuperação de Senha
 A tela de recuperação de usuário, como o próprio nome já diz, permite que o usuário recupere sua senha. Ela possui o logo do site, um campo para o usuário digitar seu email e um botão enviar email. Assim, um email será enviado para o usuário recuperar sua senha.
+
 ![image](https://user-images.githubusercontent.com/129913437/232352721-d97ed2e4-d2b7-4704-9755-57035c4229d0.png)
- - Tela de Recuperação de Senha
+
 
 ## Wireframes
 
