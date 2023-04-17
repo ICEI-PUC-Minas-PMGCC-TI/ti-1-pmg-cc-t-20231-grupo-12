@@ -74,15 +74,11 @@ Após realizar entrevistas com pessoas que possuem o costume de jogar, foi anali
 
 ## Público-Alvo
 
-Foi percebido que o principal público alvo desse projeto são os jovens que gostam de jogar videogame, principalmente na faixa de 15 a 19 anos, mas é claro que pessoas mais adultas também farão parte desse público, uma vez que existem diversas simulações/jogos que podem atrair as pessoas de várias idades.
+Foi percebido que o principal público alvo desse projeto são os jovens que gostam de jogar videogame, principalmente na faixa de 15 a 23 anos, mas é claro que pessoas mais adultas também farão parte desse público, uma vez que existem diversas simulações/jogos que podem atrair as pessoas de várias idades.
 
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+Nessa parte do documento será abordado, de uma forma geral, a concepção inicial do projeto. Apresentando as personas e os problemas iniciais que elas nos proporam, assim como suas histórias e possíveis soluções para o que nos foi mostrado. Para essa parte inicial, usamos ferramentas como o Miro, Google Docs, Trello, Figma e, sendo usado nesse momento, GitHub.
 
 ## Personas, Empatia e Proposta de Valor
 ![image](https://user-images.githubusercontent.com/129913437/232342814-2e92a95b-a3e1-408e-85f1-e8cef5980ac7.png)
@@ -120,12 +116,7 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+No geral as interfaces fora elaboradas para atender as necessidades do usuário com o menor número de cliques possível e de forma dinâmica e intuítiva. 
 
 ## User Flow
 O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente Figma do projeto.
