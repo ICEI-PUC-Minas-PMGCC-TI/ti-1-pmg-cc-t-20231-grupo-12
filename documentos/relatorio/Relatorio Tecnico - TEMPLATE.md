@@ -252,10 +252,10 @@ A tela de recuperação de usuário, como o próprio nome já diz, permite que o
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | [https://github.com/XXXXXXX](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20231-grupo-12) | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | [https://figma.com/XXXXXXX](https://www.figma.com/file/2z5tmbvyGhPFOPwEv1E7wr/Untitled?node-id=0%3A1&t=tTi5HPsA4y2OJgDN-1) | 
+|Processo de Design Thinkgin  | Miro | https://miro.com/app/board/uXjVMYDTr_8=/ | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20231-grupo-12 | 
+|Hospedagem do site | Heroku |   | 
+|Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/file/2z5tmbvyGhPFOPwEv1E7wr/Untitled?node-id=0%3A1&t=tTi5HPsA4y2OJgDN-1 | 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
