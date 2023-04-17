@@ -5,9 +5,10 @@ Não saber o que jogar
 
 ## Participantes
 - Gabriel Antonio Rodrigues Morais
- - Gabriel Drumond Franklin de Miranda e Rezende
- - Livia Alves Ferreira
- - Pedro Otavio Luz Salgado
+- Gabriel Drumond Franklin de Miranda e Rezende
+- Livia Alves Ferreira
+- Pedro Otavio Luz Salgado
+
 # Estrutura do Documento
 
 - [Informações do Projeto](#informações-do-projeto)
@@ -193,13 +194,11 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 
 ## Divisão de Papéis
 
-Pessoa 1: Dúvidas e reclamações e página de comunidades
-
-Pessoa 2:  Página de jogos e barra de pesquisa (menu lateral)
-
-Pessoa 3: Login, Logout e recuperação de senha
-
-Pessoa 4: Ambas páginas de sobre o site e favoritos
+Desenvolvedores:  
+- Gabriel Antonio Rodrigues Morais
+- Gabriel Drumond Franklin de Miranda e Rezende
+- Livia Alves Ferreira
+- Pedro Otavio Luz Salgado
 
 ## Ferramentas
 
