@@ -193,6 +193,8 @@ A tela de recuperação de usuário, como o próprio nome já diz, permite que o
 A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
 ## Divisão de Papéis
+Scrum Master:
+Pedro Otavio Luz Salgado
 
 Desenvolvedores:  
 - Gabriel Antonio Rodrigues Morais
