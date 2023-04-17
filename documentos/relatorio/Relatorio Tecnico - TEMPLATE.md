@@ -1,9 +1,7 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
-Não saber o que jogar
 
-`CURSO` 
-Ciencia da  Computação
+Tema:  
+Não saber o que jogar  
 
 ## Participantes
 - Gabriel Antonio Rodrigues Morais
@@ -34,7 +32,6 @@ Ciencia da  Computação
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
@@ -213,35 +210,26 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro | https://miro.com/app/board/uXjVMYDTr_8=/ | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20231-grupo-12 | 
-|Hospedagem do site | Heroku |   | 
+|Hospedagem do site |  |   | 
 |Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/file/2z5tmbvyGhPFOPwEv1E7wr/Untitled?node-id=0%3A1&t=tTi5HPsA4y2OJgDN-1 | 
 
 
 ## Controle de Versão
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
+A ferramenta de controle de versão adotada no projeto foi o
+[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
+foi utilizado para hospedagem do repositório `upstream`.
 
-# **############## SPRINT 1 ACABA AQUI #############**
+O projeto segue a seguinte convenção para o nome de branchs:  
+- `master`: versão estável já testada do software
+- `dev`: versão de desenvolvimento do software
+
+Quanto à gerência de issues, o projeto adota a seguinte convenção para
+etiquetas:
+
+- `bugfix`: uma funcionalidade encontra-se com problemas
+- `enhancement`: uma funcionalidade precisa ser melhorada
+- `feature`: uma nova funcionalidade precisa ser introduzida
 
 
 # Projeto da Solução
