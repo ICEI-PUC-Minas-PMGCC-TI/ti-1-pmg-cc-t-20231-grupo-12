@@ -83,14 +83,10 @@ Nessa parte do documento será abordado, de uma forma geral, a concepção inici
 ## Personas, Empatia e Proposta de Valor
 ![image](https://user-images.githubusercontent.com/129913437/232342814-2e92a95b-a3e1-408e-85f1-e8cef5980ac7.png)
 ![image](https://user-images.githubusercontent.com/129913437/232342873-0f9a7107-b340-4cb9-909a-e10c25e3e0e1.png)
-![image](https://user-images.githubusercontent.com/129913437/232344780-3f16f941-bf1c-43ac-a92c-b4716eae1e82.png)
 ![image](https://user-images.githubusercontent.com/129913437/232342941-a892bf1e-e0e2-44ad-aeed-c343e695d95a.png)
 
-
-
-> **Exemplo de Proposta de Valor**
-> ![Exemplo da Proposta de Valor](images/proposta_valor.png)
-
+- Exemplo de uma das propostas de valor
+![image](https://user-images.githubusercontent.com/129913437/232344780-3f16f941-bf1c-43ac-a92c-b4716eae1e82.png)
 
 ## Histórias de Usuários
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
@@ -125,7 +121,7 @@ O diagrama apresentado na Figura abaixo mostra o fluxo de interação do usuári
 
 Fluxo de telas do usuário
 
-Wireframes
+## Wireframes
 Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 2. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
 Cabeçalho - local onde são dispostos elementos fixos de identidade (logo), representado pelo retângulo preto, e navegação principal do site (menu da aplicação);
 Conteúdo - apresenta o conteúdo da tela em questão e acima tem o título como indicado.
@@ -194,27 +190,6 @@ A tela de recuperação de usuário, como o próprio nome já diz, permite que o
 
 ![image](https://user-images.githubusercontent.com/129913437/232352721-d97ed2e4-d2b7-4704-9755-57035c4229d0.png)
 
-
-## Wireframes
-
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
-
-
 # Metodologia
 
 A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
@@ -222,8 +197,11 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 ## Divisão de Papéis
 
 Pessoa 1: Dúvidas e reclamações e página de comunidades
+
 Pessoa 2:  Página de jogos e barra de pesquisa (menu lateral)
+
 Pessoa 3: Login, Logout e recuperação de senha
+
 Pessoa 4: Ambas páginas de sobre o site e favoritos
 
 ## Ferramentas
