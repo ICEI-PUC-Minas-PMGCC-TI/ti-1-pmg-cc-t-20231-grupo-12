@@ -227,9 +227,9 @@ O projeto segue a seguinte convenção para o nome de branchs:
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-- `bugfix`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+- `bug`: uma funcionalidade encontra-se com problemas
+- `melhoria`: uma funcionalidade precisa ser melhorada
+- `sugestao`: uma nova funcionalidade precisa ser introduzida
 
 
 # Projeto da Solução
