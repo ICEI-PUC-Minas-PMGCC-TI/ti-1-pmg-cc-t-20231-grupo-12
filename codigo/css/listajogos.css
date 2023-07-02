@@ -1,0 +1,10 @@
+.search-bar {
+    margin-bottom: 10px;
+}
+
+#lista-jogos a,
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
