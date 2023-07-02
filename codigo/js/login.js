@@ -35,8 +35,10 @@
   // Dados de usuários para serem utilizados como carga inicial
   const dadosIniciais = {
     usuarios: [
-      { "id": generateUUID(), "login": "admin", "senha": "123", "nome": "Administrador do Sistema", "email": "admin@abc.com" },
-      { "id": generateUUID(), "login": "user", "senha": "123", "nome": "Usuario Comum", "email": "user@abc.com" },
+      { id: generateUUID(), login: "admin", senha: "123", nome: "Administrador do Sistema", email: "admin@abc.com" },
+      { id: "5db6f8d5-772c-4bec-90c2-7dbc15b2593d", login: "user1", senha: "123", nome: "Usuario Comum", email: "user@abc.com" },
+      { id: "3f150549-29d4-4097-a39c-e521bb645ae9", login: "user2", senha: "123", nome: "Usuario Comum", email: "user@abc.com" },
+      { id: "e6a48942-4cbc-425d-b1a8-c508ab2f0bf1", login: "user3", senha: "123", nome: "Usuario Comum", email: "user@abc.com" },
     ]
   };
 
