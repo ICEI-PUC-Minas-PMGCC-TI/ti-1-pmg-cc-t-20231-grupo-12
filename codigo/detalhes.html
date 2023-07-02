@@ -21,32 +21,24 @@
   <link rel="manifest" href="misc/site.webmanifest">
   <!-- }} -->
   <!-- Cabeçalho desta página -->
-  <title>Jogos</title>
-  <link rel="stylesheet" href="css/listajogos.css">
-  <script src="js/listaJogos.js"></script>
+  <title>Detalhes do Jogo</title>
+  <link rel="stylesheet" href="css/detalhes.css">
+  <link rel="stylesheet" href="css/comentarios.css">
+  <script src="js/detalhes.js"></script>
+  <script src="js/comentarios.js"></script>
 </head>
 
 <body class="w-100">
   <div id="header-ph" class="html-fragment" data-fragment-name="header"></div>
 
-  <main class="container-fluid">
-    <div class="row px-4">
-      <div class="col-10">
-        <h1 id="titulo-listagem" class="text-center bg-body-secondary pb-1 mb-3">Catálogo completo</h1>
-        <div id="lista-jogos" class="row row-cols-3">
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="sidebar">
-          <!-- <input type="text" id="pesquisa" class="form-control search-bar" placeholder="Pesquisar"> -->
-          <ul class="list-group item-list">
-            <li class="list-group-item"><a href="jogos.html?cat=Competitivo">Competitivo</a></li>
-            <li class="list-group-item"><a href="jogos.html?cat=RPG">RPG</a></li>
-            <li class="list-group-item"><a href="jogos.html?cat=Sobrevivencia">Sobrevivência</a></li>
-          </ul>
-        </div>
-      </div>
+  <main class="container">
+    <h1 id="titulo" class="text-center mb-1">Loading...</h1>
+    <div class="container my-3 d-flex justify-content-center align-items-center">
+      <img id="capa" src="img/ph.jpg" class="img-fluid" alt="Placeholder">
+    </div>
+    <h5 id="descricao" class="p-3 mt-1 text-bg-secondary text-info">Loading...</h5>
+    <hr style="color: white; filter: blur(1px);">
+    <div id="comentarios-ph" class="html-fragment" data-fragment-name="comentarios"></div>
   </main>
 </body>
 

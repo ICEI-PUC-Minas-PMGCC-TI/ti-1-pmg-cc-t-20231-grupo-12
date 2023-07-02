@@ -7,7 +7,7 @@
     for (const jogo of jogos) {
       jogosHTML += `
 <div class="col mb-3">
-  <a href="detalhes.html?id=${jogo.id}&titulo=${jogo.titulo}" class="bg-body-tertiary">
+  <a href="detalhes.html?idJogo=${jogo.id}&titulo=${jogo.titulo}" class="bg-body-tertiary">
     <img class="img-fluid" src="${jogo.link_capa}" alt="Capa do jogo: ${jogo.titulo}">
     <h4 class="text-center"><span class="text-info">Ver detalhes e comentários sobre</span> <em class="text-info-emphasis">${jogo.titulo}</em></h4>
   </a>
