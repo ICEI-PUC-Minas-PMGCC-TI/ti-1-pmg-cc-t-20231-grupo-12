@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#lista-cmnt {
+  overflow-y: auto;
+}
+
+.pfp-cmnt {
+  width: 100%;
+  max-height: fit-content;
+}
+
+.autor-cmnt {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.texto-cmnt {
+  overflow-y: auto;
+  max-height: 20vh;
+}
+
+#media-cmnt {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  background-color: orangered;
+  color: yellow;
+}
+
+.pontos-cmnt {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-weight: bolder;
+  background-color: green;
+  color: yellow;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+input[type="number"] {
+  appearance: textfield;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input:enabled {
+  outline: lime solid;
+}
+
+textarea:enabled {
+  outline: lime solid;
+}
+
+textarea {
+  display: block;
+  resize: none;
+}
+
+textarea.resizable {
+  resize: unset;
+}
+
+textarea:disabled.undis {
+  color: inherit;
+}
