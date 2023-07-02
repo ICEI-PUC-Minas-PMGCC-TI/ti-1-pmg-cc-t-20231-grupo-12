@@ -239,7 +239,9 @@ etiquetas:
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para implementar nossa solução usamos principalmente o uso de HTML, CSS e JavaScript. Usamos o framework do bootstrap para garantir a 
+responsividade do site e implementar elementos como carrosséis e navbars. 
+De IDEs utilizamos o Visual Studio Code.
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
