@@ -20,14 +20,14 @@ function busca(req) {
       if (resp.ok)
         return resp.json();
       else
-        throw new Error(resp.status + "~" + resp.statusText)
+        throw new Error(resp.status + "~/~" + resp.statusText)
     },
-    () => { throw new Error("-1~Erro de rede fatal"); }
+    () => { throw new Error("-1~/~Erro de rede fatal"); }
   );
 }
 
 function renderizarErro(erro) {
-  const [codigo, mensagem] = erro.message.split("~");
+  const [codigo, mensagem] = erro.message.split("~/~");
   alert(`ERRO ${codigo}: ${mensagem}</div>`);
 }
 
@@ -40,14 +40,16 @@ function renderizarErro(erro) {
   }
 
   function renderizarHeader() {
-    D.querySelectorAll(".nav-link").forEach(e => {
-      if (W.location.pathname == e.pathname) {
-        e.classList.add("active");
-      }
-    });
-    const usr = sessionStorage.getItem("idUsuario");
+    if (!W.location.pathname.endsWith(".html"))
+      D.querySelector("[href='index.html']").classList.add("active");
+    else
+      D.querySelectorAll(".nav-link").forEach(e => {
+        if (W.location.pathname == e.pathname)
+          e.classList.add("active");
+      });
+    const usr = JSON.parse(sessionStorage.getItem("usuarioCorrente"))?.id;
     if (usr) {
-      D.querySelector("#login").outerHTML = `<a id="perfil" href="/perfil?id="${usr} class="d-block btn btn-info me-4 mb-1">Perfil</a>`;
+      D.querySelector("#login").outerHTML = `<a id="perfil" href="perfil.html?id=${usr}" class="d-block btn btn-info me-4 mb-1">Perfil</a>`;
     }
   }
 

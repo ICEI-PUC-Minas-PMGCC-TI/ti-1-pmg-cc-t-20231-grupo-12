@@ -38,9 +38,11 @@
         <div class="carousel-indicators">
         </div>
         <div class="carousel-inner justify-content-center">
-          <div id="noticias-ph" class="carousel-item">
-            <div style="display: block; min-width: 400px; min-height: 200px;"></div>
-            <div class="carousel-caption">LOADING...</div>
+          <div id="lancamentos-ph" class="carousel-item active">
+            <img src="img/ph.jpg" class="d-block w-100" alt="Placeholder">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>LOADING...</h2>
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" data-bs-target="#carrossel" data-bs-slide="prev">
@@ -55,7 +57,13 @@
     <hr style="color: white;">
     <!--Div das notícias-->
     <div id="noticias" class="container news-container">
-      <div id="noticias-ph" style="display: block; height: 300%; width: 100%;">LOADING...</div>
+      <div id="noticias-ph" class="row news-item row row-cols-xl-2 row-cols-1 mb-4">
+        <img src="img/ph.jpg" class="col" alt="Placeholder">
+        <div class="col">
+          <h2 class="news-title">LOADING...</h2>
+          <p>Loading...</p>
+        </div>
+      </div>
     </div>
   </main>
 </body>

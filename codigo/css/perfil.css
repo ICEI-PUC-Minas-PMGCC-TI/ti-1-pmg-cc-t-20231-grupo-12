@@ -1,0 +1,17 @@
+#geral {
+    width: 70%;
+    margin: 0px auto;
+}
+#componentes {
+    width: 65%;
+    height: 65%;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+img {
+    width: 70%;
+}
+#excluir {
+    background-color: red;
+}

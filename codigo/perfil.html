@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+
+<head>
+  <!-- Cabeçalho global {{ -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <!-- Estilo global -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Script global -->
+  <script src="js/main.js"></script>
+  <!-- favicons com fallbacks e versões de atalho mobile -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" sizes="48x48" href="img/favicons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="manifest" href="misc/site.webmanifest">
+  <!-- }} -->
+  <!-- Cabeçalho desta página -->
+  <title>Usuários</title>
+  <link rel="stylesheet" type="text/css" href="css/perfil.css">
+</head>
+
+<body class="w-100">
+  <div id="header-ph" class="html-fragment" data-fragment-name="header"></div>
+
+  <div class="container-fluid" id="geral">
+    <div id="componentes" class="container">
+      <div class="row"><!-- Div da logo -->
+        <div class="col-md-6 text-end">
+          <img src="img/playsemfundo.png" alt="logo carregando" id="logo">
+        </div>
+        <div class="col-md-6">
+          <button id="excluir" class="btn btn-secondary btn-block" onclick="removeUsu(document.getElementById('id').value)">Excluir perfil</button>
+        </div>
+      </div>
+      <div class="row"><!-- Div do forms no geral -->
+        <div class="col-lg-6 offset-lg-3"><!-- Definir o tamanho e a centralização do formulário -->
+          <form action="" method="">
+            <p>Deixe aqui seu comentário!</p>
+            <div><!-- Parte do comentário em si -->
+              <div class="form-group">
+                <label for="nome">ID:</label>
+                <input type="text" class="form-control" id="id" required>
+              </div>
+              <div class="form-group">
+                <label for="nome">Digite seu novo nickname:</label>
+                <input type="text" class="form-control" id="nome" required>
+              </div>
+              <div class="form-group">
+                <label for="description">Nos conte um pouco sobre você: </label>
+                <textarea class="form-control" id="description"></textarea>
+              </div>
+              <div class="row"><!-- Botões limpar e enviar -->
+                <div class="col-md-6">
+                  <button id="limpar" type="reset" class="btn btn-secondary btn-block">Limpar</button>
+                </div>
+                <div class="col-md-6">
+                  <button id="editar" class="btn btn-primary btn-block" onclick="editarUsu(
+                                        document.getElementById('id').value,
+                                        document.getElementById('nome').value,
+                                        document.getElementById('description').value
+                                        );">Editar</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> <!--Fim da div geral-->
+
+  <script src="js/perfil.js"></script>
+</body>
+
+</html>
