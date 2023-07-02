@@ -258,23 +258,17 @@ De IDEs utilizamos o Visual Studio Code.
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+> Nosso diagrama de arquitetura
+> ![Arquitetura](images/arquitetura.png)
+> Escolhemos usar o bd do Replit para armazenar os dados do nosso WebAPP.
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
 
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+Testamos a responsividade da aplicação abrido-a em vários dispositivos de tamanhos diferentes.
+Testamos também as diferentes funcionalidades em aparelhos diferentes para vê se estava 
+tudo funcionando nos mais diversos ambientes.
 
 ## Plano de Testes
 
@@ -290,20 +284,9 @@ De IDEs utilizamos o Visual Studio Code.
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
 ## Registros de Testes
 
 ......  COLOQUE AQUI O SEU TEXTO ......
-
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
 > esses pontos nas próximas iterações. Apresente as falhas detectadas e
@@ -312,11 +295,5 @@ De IDEs utilizamos o Visual Studio Code.
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+> Pesquisa de jogos: (https://www.esports.net/br/guias/melhores-jogos-de-corrida/)
+> Dúvidas sobre JavaScript: (https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
