@@ -235,26 +235,15 @@ etiquetas:
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 ## Tecnologias Utilizadas
 
 Para implementar nossa solução usamos principalmente o uso de HTML, CSS e JavaScript. Usamos o framework do bootstrap para garantir a 
 responsividade do site e implementar elementos como carrosséis e navbars. 
-De IDEs utilizamos o Visual Studio Code.
+De IDEs utilizamos o Visual Studio Code, o Replit.
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+> tecnologias envolvidas, linguagens a serem utilizadas, serviços web.
 
 ## Arquitetura da solução
 
@@ -272,7 +261,8 @@ tudo funcionando nos mais diversos ambientes.
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Avaliamos a função de editar comentário em diferentes perfis, avaliamos também a forma dinâmica com que as informações são 
+dispostas buscando dados disponíveis no banco de dados.
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
@@ -286,12 +276,10 @@ tudo funcionando nos mais diversos ambientes.
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
-
+Um dos pontos fortes de usar o DB é que as informações não se "perdem" tão facilmente quanto no LocalStorage, porém é bem mais complicado registrar algumas 
+informações, pois um acentos ou pontuação diferente faz com que o dado não seja pego direito e não apareça.
+Alguns testes de responsividade apontaram erros da nossa partes, pois a tela não se adaptava ao dispositivo com isso pudemos corrigir e melhorar tal quesito.
+Outros testes com os filtros apontaram que eles não funcionavam em alguns casos, tivemos que rever o código e melhorá-los.
 
 # Referências
 
