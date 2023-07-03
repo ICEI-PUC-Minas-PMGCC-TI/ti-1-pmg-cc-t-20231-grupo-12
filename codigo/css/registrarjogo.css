@@ -1,0 +1,26 @@
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.dropdown-menu {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.btn-primary {
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container {
+  margin-top: 50px;
+}

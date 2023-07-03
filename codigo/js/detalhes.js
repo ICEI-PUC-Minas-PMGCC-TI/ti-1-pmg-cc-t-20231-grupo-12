@@ -14,7 +14,7 @@
 
   function elemComentario(comentario) {
     let btnEditar = "";
-    if (usuario_atual == comentario.idUsuario) {
+    if (usuario_atual.id == comentario.idUsuario) {
       btnEditar = `<div class="d-flex justify-content-center"><button id="editar" class="btn btn-primary w-100">Editar</button></div>`;
     }
     return `
@@ -45,7 +45,7 @@
   function atualizarComentario(e) {
     const input_pontos = e.target.parentElement.parentElement.querySelector("input");
     const input_texto = e.target.parentElement.parentElement.querySelector("textarea");
-    const indice = jogo_atual.comentarios.findIndex(c => c.idUsuario == usuario_atual);
+    const indice = jogo_atual.comentarios.findIndex(c => c.idUsuario == usuario_atual.id);
     jogo_atual.comentarios[indice].pontos = Number(input_pontos.value);
     jogo_atual.comentarios[indice].texto = input_texto.value;
     fetch(DB + `jogos/${jogo_atual.id}`, {
@@ -83,8 +83,26 @@
     D.querySelector("#lista-cmnt").innerHTML = html;
     D.querySelector("#editar").addEventListener("click", editarComentario);
   }
+
+  function enviarComentario(e) {
+    let comentario = {};
+    comentario.id = usuario_atual.id;
+    comentario.username = usuario_atual.nome;
+    comentario.pontos = Number(D.querySelector("#pontuacao").value);
+    comentario.texto = D.querySelector("#texto-comentario").value;
+    jogo_atual.comentarios.push(comentario);
+    fetch(DB + `jogos/${jogo_atual.id}`, {
+      method: "PATCH",
+      headers: {
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(jogo_atual)
+    }).then(() => location.reload(), () => alert("Erro"));
+  }
+
   function main() {
-    usuario_atual = JSON.parse(sessionStorage.getItem("usuarioCorrente") || "{}")?.id;
+    usuario_atual = JSON.parse(sessionStorage.getItem("usuarioCorrente") || "{}");
     const idJogo = (new URL(W.location.href)).searchParams?.get("idJogo");
     if (idJogo == undefined)
       W.location.replace("jogos.html"); // Detalhes vem de um jogo específico..
@@ -95,6 +113,8 @@
         renderizarJogo(jogo);
         renderizarComentarios(jogo.comentarios);
       }, (err) => renderizarErro(err));
+    if (usuario_atual)
+      setTimeout(() => D.querySelector("#enviar-comentario").addEventListener("click", enviarComentario), 100);
   }
 
   if (D.readyState == "complete") main(); else W.addEventListener("load", main);

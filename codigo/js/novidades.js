@@ -6,11 +6,13 @@
 
     for (const item of lancamentos) {
       slides += `
-<div class="carousel-item outline text-center">
-  <img src="${item.link_imagem}" class="d-inline-block" alt="${item.titulo}">
-  <div class="carousel-caption d-none d-md-block">
-    <h2>${item.titulo}</h2>
-    <p>${item.splash}</p>
+<div class="carousel-item outline">
+  <div class="d-flex justify-content-center">
+    <img src="${item.link_imagem}" class="d-inline-block" alt="${item.titulo}">
+    <div class="carousel-caption d-none d-md-block">
+      <h2>${item.titulo}</h2>
+      <p>${item.splash}</p>
+    </div>
   </div>
 </div>`;
     }
