@@ -113,8 +113,26 @@
         renderizarJogo(jogo);
         renderizarComentarios(jogo.comentarios);
       }, (err) => renderizarErro(err));
-    if (usuario_atual)
-      setTimeout(() => D.querySelector("#enviar-comentario").addEventListener("click", enviarComentario), 100);
+    if (usuario_atual) {
+      setTimeout(() => D.querySelector("#enviar-comentario").addEventListener("click", enviarComentario), 200);
+      setTimeout(() => D.querySelector("#pontuacao").addEventListener("input", (e) => {
+        let p = Number(e.target.value);
+        let estrelasHTML = "";
+        let i = 5;
+        while (i-- > 0) {
+          if (p >= 1) {
+            estrelasHTML += `<i class="bi bi-star-fill"></i>`;
+            p -= 1;
+          } else if (p == 0.5) {
+            estrelasHTML += `<i class="bi bi-star-half"></i>`;
+            p -= 0.5;
+          } else
+            estrelasHTML += `<i class="bi bi-star"></i>`;
+        }
+        console.log(e.target.value);
+        D.querySelector("#estrelas").innerHTML = estrelasHTML;
+      }), 300);
+    }
   }
 
   if (D.readyState == "complete") main(); else W.addEventListener("load", main);
