@@ -3,7 +3,7 @@
     const lista = D.querySelector("#lista-jogos");
     let jogosHTML = "";
     if (categorias.length > 0)
-      jogos = jogos.filter(jogo => categorias.some(categoria => jogo.categorias.includes(categoria)));
+      jogos = jogos.filter(jogo => categorias.some(categoria => jogo.categorias.toLowerCase().includes(categoria.toLowerCase())));
     for (const jogo of jogos) {
       jogosHTML += `
 <div class="col mb-3">

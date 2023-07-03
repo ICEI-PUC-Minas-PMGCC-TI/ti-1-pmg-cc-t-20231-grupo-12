@@ -7,6 +7,9 @@
     D.querySelector("#capa").src = jogo.link_capa;
     D.querySelector("#titulo").textContent = jogo.titulo;
     D.querySelector("#descricao").textContent = jogo.descricao;
+    D.querySelector("#fabricante").textContent = "Desenvolvedor: " + jogo.desenvolvedor + " - Ano de lançamento: " + jogo.lancamento;
+    if (jogo.comunidade) // Checar se existem comunidades
+      D.querySelector("#comunidade").textContent = "Comunidade: " + jogo.comunidade;
   }
 
   function elemComentario(comentario) {
